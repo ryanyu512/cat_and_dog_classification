@@ -34,7 +34,7 @@ def train_cls_model(flag, hyp_params):
             hyp_params['FC_DROPOUT']: define dropout ratio
             hyp_params['WORKER']: define number of cpu worker for handling image generator
             
-        returns 
+        returns:
             None
 
     '''
